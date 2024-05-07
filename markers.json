@@ -1,0 +1,99 @@
+{
+    "Marcadores": [
+        {
+            "nome": "SMCA",
+            "lat": -32.0457632,
+            "lng": -52.1143298,
+            "desc": "<b>Arrecadação de</b>: <br>Rações</b><br><b>SMCA - Causa Animal</b><br>Av. Buarque de Macedo, 499 - Cidade Nova"
+        },
+        {
+            "nome": "Garage58",
+            "lat": -32.0362963,
+            "lng": -52.1188967,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><b>Garage58</b><br>R. República, 184 - Cidade Nova"
+        },
+        {
+            "nome": "Agropecuária Terra Vermelha",
+            "lat": -32.0532596,
+            "lng": -52.1538474,
+            "desc": "<b>Arrecadação de</b>: <br>Rações</b><br><b>Agropecuária Terra Vermelha</b><br>R. Cristóvão Pereira, 145 - Vila Sao Miguel"
+        },
+        {
+            "nome": "Agropecuária Comercial Ness",
+            "lat": -32.082572,
+            "lng": -52.158031,
+            "desc": "<b>Arrecadação de</b>: <br>Rações</b><br><b>Agropecuária Comercial Ness</b><br>Alameda Uruguay, 72 - Vila Maria Jose"
+        },
+        {
+            "nome": "Camping Cassino",
+            "lat": -32.1670274,
+            "lng": -52.1668979,
+            "desc": "<b>Arrecadação de</b>: <br>Rações</b><br><b>Camping Cassino<br>"
+        },
+        {
+            "nome": "Prefeitura Municipal de Rio Grande",
+            "lat": -32.0308156,
+            "lng": -52.0973848,
+            "desc": "<b>Arrecadação de</b>: <br>Rações</b><br><b>Prefeitura Municipal de Rio Grande</b><br>"
+        },
+        {
+            "nome": "Partage Shopping Rio Grande",
+            "lat": -32.114074,
+            "lng": -52.1752862,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Partage Shopping Rio Grande<br>"
+        },
+        {
+            "nome": "Ginásio Lemos Júnior",
+            "lat": -32.0388318,
+            "lng": -52.0931829,
+            "desc": "<b>Abrigo</b><br><b>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "Ginásio Wanda Rocha",
+            "lat": -32.1772973,
+            "lng": -52.1596698,
+            "desc": "<b>Abrigo - Em Preparo</b><br><b>Ginásio Wanda Rocha</b>",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "Escola João de Oliveira Martins",
+            "lat": -32.0757463,
+            "lng": -52.1799448,
+            "desc": "<b>Abrigo - Em Preparo</b><br><b>Escola João de Oliveira Martins</b><br>R. Irmão Isicio, 125 - Castelo Branco",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "E.M.E.F. Frederico Ernesto Buchholz",
+            "lat": -32.0552734,
+            "lng": -52.1331448,
+            "desc": "<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "Clube Camponês",
+            "lat": -32.0214331,
+            "lng": -52.282126,
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Roupas de cama<br><b>Clube Camponês</b><br>Arraial",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "Praça Rio Grande Shopping Center",
+            "lat": -32.0517257,
+            "lng": -52.148484,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><b>Praça Rio Grande Shopping Center</b>"
+        },
+        {
+            "nome": "NoMallas",
+            "lat": -32.0327525,
+            "lng": -52.093192,
+            "desc": "<b>Arrecadação de</b>: <br>Roupas/Agasalhos</b><br><b>NoMallas</b><br>R. Benjamin Constant, 161 - Centro"
+        },
+        {
+            "nome": "Brenda Lima",
+            "lat": -32.0506426,
+            "lng": -52.1182783,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brenda Lima<br></b>Av. Pres. Vargas, 700 - Vila Juncao"
+        }
+    ]
+}
