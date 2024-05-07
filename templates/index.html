@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="telefones.html">Telefones<span class="sr-only"></a>
+              <a class="nav-link" href="/telefones">Telefones<span class="sr-only"></a>
             </li>
             
         </div>
@@ -123,7 +123,7 @@ partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Aliment
     [-31.978431, -52.189371]
     ]).addTo(map);
     ilhaDosMarinheiros.setStyle({fillColor: 'red'});
-    ilhaDosMarinheiros.bindPopup("<b>Ilha dos Marinheiros</b><br><b>Área de Risco</b>").openPopup();
+    ilhaDosMarinheiros.bindPopup("<b>Ilha dos Marinheiros</b><br><b>Área de Risco (Aproximada) </b>").openPopup();
 
     var leonidiomelo = L.polygon([
     [-32.070482, -52.233581],
@@ -142,7 +142,7 @@ partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Aliment
     [-32.051530, -52.251495]
     ]).addTo(map);
     leonidiomelo.setStyle({fillColor: 'red'});
-    leonidiomelo.bindPopup("<b>Ilha do Leonidio</b><br><b>Área de Risco</b>").openPopup();
+    leonidiomelo.bindPopup("<b>Ilha do Leonidio</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
 
     var mangueira = L.polygon([
     [-32.110576, -52.158082],
@@ -163,7 +163,7 @@ partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Aliment
     ]).addTo(map);
 
     mangueira.setStyle({fillColor: 'red'});
-    mangueira.bindPopup("<b>Saco da Mangueira</b><br><b>Área de Risco</b>").openPopup();
+    mangueira.bindPopup("<b>Saco da Mangueira</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
 
     var barra = L.polygon([
         [-32.060610, -52.088045],
@@ -192,7 +192,84 @@ partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Aliment
     ]).addTo(map);
     
     barra.setStyle({fillColor: 'red'});
-    barra.bindPopup("<b>Barra</b><br><b>Área de Risco</b>").openPopup();
+    barra.bindPopup("<b>Barra</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
+
+    var areaRibeirinha = L.polygon([
+    [-32.028038, -52.080840],
+    [-32.029184, -52.084938],
+    [-32.029584, -52.089616],
+    [-32.028947, -52.094401],
+    [-32.028020, -52.099250],
+    [-32.026710, -52.102405],
+    [-32.025582, -52.105430],
+    [-32.024436, -52.108091],
+    [-32.025491, -52.111138],
+    [-32.026964, -52.111395],
+    [-32.028292, -52.111567],
+    [-32.029711, -52.113734],
+    [-32.031512, -52.115966],
+    [-32.032767, -52.116738],
+    [-32.034059, -52.117961],
+    [-32.035187, -52.120193],
+    [-32.036515, -52.121008],
+    [-32.038060, -52.123732],
+    [-32.040443, -52.127766],
+    [-32.042335, -52.132444],
+    [-32.044445, -52.135427],
+    [-32.045772, -52.138688],
+    [-32.046154, -52.143216],
+    [-32.047155, -52.147657],
+    [-32.048373, -52.152035],
+    [-32.051283, -52.157979],
+    [-32.054505, -52.163491],
+    [-32.054604, -52.169737],
+    [-32.056481, -52.174932],
+    [-32.057982, -52.172959],
+    [-32.056912, -52.171518],
+    [-32.056421, -52.169523],
+    [-32.056476, -52.167785],
+    [-32.056421, -52.165961],
+    [-32.056367, -52.164094],
+    [-32.055330, -52.162613],
+    [-32.053857, -52.160596],
+    [-32.052984, -52.158515],
+    [-32.051711, -52.156348],
+    [-32.050238, -52.153236],
+    [-32.048983, -52.150039],
+    [-32.047237, -52.143645],
+    [-32.047046, -52.138860],
+    [-32.046619, -52.137122],
+    [-32.045937, -52.135137],
+    [-32.045118, -52.133796],
+    [-32.044300, -52.132991],
+    [-32.044300, -52.132980],
+    [-32.0426674,-52.1362526],
+    [-32.041535, -52.127251],
+    [-32.0401027,-52.1281201],
+    [-32.038807, -52.121415],
+    [-32.037852, -52.120889],
+    [-32.037161, -52.120256],
+    [-32.036524, -52.119816],
+    [-32.035787, -52.118925],
+    [-32.034787, -52.116866],
+    [-32.033541, -52.115299],
+    [-32.032340, -52.114688],
+    [-32.031285, -52.113808],
+    [-32.030194, -52.112274],
+    [-32.028966, -52.110407],
+    [-32.027911, -52.107671],
+    [-32.027643, -52.105396],
+    [-32.027867, -52.103332],
+    [-32.028686, -52.100355],
+    [-32.029920, -52.096054],
+    [-32.030846, -52.090833],
+    [-32.030983, -52.087861],
+    [-32.030355, -52.084128],
+    [-32.029982, -52.082196],
+    [-32.029600, -52.079310]
+]).addTo(map);
+    areaRibeirinha.setStyle({fillColor: 'red'});
+    areaRibeirinha.bindPopup("<b>Área Ribeirinha</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
 
     
     </script>
