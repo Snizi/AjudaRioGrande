@@ -45,7 +45,12 @@
   }
 
   function addPolygon(coordinates, popupContent) {
-      var polygon = L.polygon(coordinates).addTo(map);
+
+      var coords = coordinates.map(function(coord) {
+          return [coord[1], coord[0]];
+      });
+      
+      var polygon = L.polygon(coords).addTo(map);
       polygon.setStyle({fillColor: 'red'});
       polygon.bindPopup(popupContent).openPopup();
   }
@@ -55,9 +60,11 @@
   {% endfor %}
 
   {% for polygon in riskareas["ZonasDeRisco"] %}
-      addPolygon({{ polygon.coords }}, "{{ polygon.desc | safe }}");
+      addPolygon({{ polygon.coordinates }}, "{{ polygon.desc | safe }}");
   {% endfor %}
   
+
+
   </script>
 
 {% endblock %}
