@@ -137,6 +137,12 @@
             "lat":-32.048124, 
             "lng":-52.114267,
             "desc":"<b>Arrecadação de</b>: <br>Roupas de cama e banho<br>Itens de higiene<br><b>Web Multimarcas<br></b>R. Domingos de Almeida, 733 - Parque Res. Coelho"
+        },
+        {
+            "nome": "BrownBrownie",
+            "lat":-32.041964, 
+            "lng":-52.110166,
+            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brown Brownie<br></b>R. Gen. Abreu, 268 - Miguel de Castro Moreira"
         }
     ]
 }

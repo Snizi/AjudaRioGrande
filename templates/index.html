@@ -59,10 +59,16 @@
       addMarker({{ marker.lat }}, {{ marker.lng }}, "{{ marker.desc | safe }}", {{ marker.icon }});
   {% endfor %}
 
-  {% for polygon in riskareas["ZonasDeRisco"] %}
-      addPolygon({{ polygon.coordinates }}, "{{ polygon.desc | safe }}");
-  {% endfor %}
-  
+
+
+
+    var poly = L.geoJSON({{ riskareas | safe }}, {
+        style: function (feature) {
+            return {color: feature.properties.fill, weight:1.2};
+        }
+    }).bindPopup(function(layer){
+        return layer.feature.properties.desc;
+    }).addTo(map);
 
 
   </script>
