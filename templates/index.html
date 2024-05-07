@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
-     <!-- Make sure you put this AFTER Leaflet's CSS -->
+
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
@@ -14,7 +15,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
-  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
 
     
     <title>Ajuda Rio Grande</title>
@@ -43,10 +44,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="/telefones">Telefones</a>
                   </li>
-                 
-                
                 </ul>
-          
               </div>
             </div>
           </nav>
@@ -74,212 +72,197 @@
         shadowSize: [41, 41]
         });
 
+    var blueIcon = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+    });
 
-    var smCausaAnimal = L.marker([-32.0376907,-52.103219]).addTo(map);
-    smCausaAnimal.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>SMCA - Causa Animal</b><br>").openPopup();
- 
-    var terraVermelha = L.marker([-32.0532596,-52.1538474]).addTo(map);
-    terraVermelha.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Agropecuária Terra Vermelha</b><br>").openPopup();
+    function addMarker(lat, lng, popupContent, icon = blueIcon) {
+    var marker = L.marker([lat, lng], {icon: icon}).addTo(map);
+    marker.bindPopup(popupContent).openPopup();
+    }
 
-    var agroNess = L.marker([-32.082572,-52.158031]).addTo(map);
-    agroNess.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Agropecuária Comercial Ness</b><br>").openPopup();
-
-    var campingCassino = L.marker([-32.1670274,-52.1668979,]).addTo(map);
-    campingCassino.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Camping Cassino<br>").openPopup();
-
-    var prefeitura = L.marker([-32.0308156,-52.0973848]).addTo(map);
-    prefeitura.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Prefeitura Municipal de Rio Grande</b><br>").openPopup();
-
-    var partageShopping = L.marker([-32.114074,-52.1752862]).addTo(map);
-partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Partage Shopping Rio Grande<br>").openPopup();
+    function addPolygon(coordinates, popupContent) {
+        var polygon = L.polygon(coordinates).addTo(map);
+        polygon.setStyle({fillColor: 'red'});
+        polygon.bindPopup(popupContent).openPopup();
+    }
     
-    var lemosJunior = L.marker([-32.0388318, -52.0931829], {icon: goldIcon}).addTo(map);
-    lemosJunior.bindPopup("<b>Abrigo</b><br><b>Ginásio Lemos Júnior </b>").openPopup();
 
-    var wandaRocha = L.marker([-32.1772973, -52.1596698], {icon: goldIcon}).addTo(map);
-    wandaRocha.bindPopup("<b>Abrigo - Em Preparo</b><br><b>Ginásio Wanda Rocha</b>").openPopup();
-
-    var joaoMartins = L.marker([-32.0757463, -52.1799448], {icon: goldIcon}).addTo(map);
-    joaoMartins.bindPopup("<b>Abrigo - Em Preparo</b><br><b>Escola João de Oliveira Martins</b>").openPopup();
-
-    var buchholz = L.marker([-32.0552734, -52.1331448], {icon: goldIcon}).addTo(map);
-    buchholz.bindPopup("<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b>").openPopup();
-
-    var arraial = L.marker([-32.0214331,-52.282126], {icon: goldIcon}).addTo(map);
-    arraial.bindPopup("<b>Abrigo</b><br><b>Esporte Clube Camponês</b>").openPopup();
-    
-    var pracaShopping = L.marker([-32.0517257,-52.148484,]).addTo(map);
-    pracaShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Praça Rio Grande Shopping Center</b>").openPopup();
-
-
-    var ilhaDosMarinheiros = L.polygon([
-    [-31.988988, -52.194543],
-    [-31.994883, -52.195894],
-    [-32.004200, -52.194693],
-    [-32.006966, -52.203447],
-    [-32.011915, -52.207567],
-    [-32.025451, -52.200872],
-    [-32.030108, -52.189028],
-    [-32.028798, -52.171175],
-    [-32.025742, -52.152807],
-    [-32.018465, -52.137014],
-    [-32.012934, -52.121737],
-    [-32.006093, -52.106287],
-    [-32.007403, -52.099077],
-    [-32.004491, -52.094957],
-    [-31.991971, -52.096502],
-    [-31.982216, -52.104399],
-    [-31.974936, -52.113840],
-    [-31.977703, -52.136156],
-    [-31.976246, -52.161734],
-    [-31.978431, -52.189371]
-    ]).addTo(map);
-    ilhaDosMarinheiros.setStyle({fillColor: 'red'});
-    ilhaDosMarinheiros.bindPopup("<b>Ilha dos Marinheiros</b><br><b>Área de Risco (Aproximada) </b>").openPopup();
-
-    var leonidiomelo = L.polygon([
-    [-32.070482, -52.233581],
-    [-32.068637, -52.223153],
-    [-32.072407, -52.215573],
-    [-32.071150, -52.212937],
-    [-32.068008, -52.212607],
-    [-32.063191, -52.210877],
-    [-32.059001, -52.203297],
-    [-32.059420, -52.194152],
-    [-32.055161, -52.193246],
-    [-32.037632, -52.200084],
-    [-32.031835, -52.212607],
-    [-32.034210, -52.229332],
-    [-32.044826, -52.245398],
-    [-32.051530, -52.251495]
-    ]).addTo(map);
-    leonidiomelo.setStyle({fillColor: 'red'});
-    leonidiomelo.bindPopup("<b>Ilha do Leonidio</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
-
-    var mangueira = L.polygon([
-    [-32.110576, -52.158082],
-    [-32.084530, -52.153812],
-    [-32.065584, -52.144057],
-    [-32.057595, -52.135726],
-    [-32.056341, -52.130684],
-    [-32.050117, -52.111832],
-    [-32.044775, -52.101200],
-    [-32.049374, -52.087773],
-    [-32.059685, -52.089198],
-    [-32.065909, -52.099830],
-    [-32.076636, -52.109640],
-    [-32.089034, -52.118134],
-    [-32.096741, -52.128821],
-    [-32.115078, -52.147283],
-    [-32.117579, -52.152879]
-    ]).addTo(map);
-
-    mangueira.setStyle({fillColor: 'red'});
-    mangueira.bindPopup("<b>Saco da Mangueira</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
-
-    var barra = L.polygon([
-        [-32.060610, -52.088045],
-        [-32.064820, -52.089415],
-        [-32.067763, -52.091957],
-        [-32.080519, -52.102021],
-        [-32.089948, -52.104862],
-        [-32.097906, -52.107204],
-        [-32.112607, -52.108482],
-        [-32.125792, -52.109258],
-        [-32.141480, -52.107609],
-        [-32.148748, -52.105718],
-        [-32.150746, -52.101163],
-        [-32.144082, -52.101836],
-        [-32.139795, -52.102706],
-        [-32.134771, -52.103537],
-        [-32.130316, -52.102231],
-        [-32.122210, -52.101559],
-        [-32.114304, -52.103181],
-        [-32.104856, -52.102825],
-        [-32.094201, -52.099819],
-        [-32.083947, -52.097327],
-        [-32.074865, -52.090049],
-        [-32.063637, -52.082297]
-        
-    ]).addTo(map);
-    
-    barra.setStyle({fillColor: 'red'});
-    barra.bindPopup("<b>Barra</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
-
-    var areaRibeirinha = L.polygon([
-    [-32.028038, -52.080840],
-    [-32.029184, -52.084938],
-    [-32.029584, -52.089616],
-    [-32.028947, -52.094401],
-    [-32.028020, -52.099250],
-    [-32.026710, -52.102405],
-    [-32.025582, -52.105430],
-    [-32.024436, -52.108091],
-    [-32.025491, -52.111138],
-    [-32.026964, -52.111395],
-    [-32.028292, -52.111567],
-    [-32.029711, -52.113734],
-    [-32.031512, -52.115966],
-    [-32.032767, -52.116738],
-    [-32.034059, -52.117961],
-    [-32.035187, -52.120193],
-    [-32.036515, -52.121008],
-    [-32.038060, -52.123732],
-    [-32.040443, -52.127766],
-    [-32.042335, -52.132444],
-    [-32.044445, -52.135427],
-    [-32.045772, -52.138688],
-    [-32.046154, -52.143216],
-    [-32.047155, -52.147657],
-    [-32.048373, -52.152035],
-    [-32.051283, -52.157979],
-    [-32.054505, -52.163491],
-    [-32.054604, -52.169737],
-    [-32.056481, -52.174932],
-    [-32.057982, -52.172959],
-    [-32.056912, -52.171518],
-    [-32.056421, -52.169523],
-    [-32.056476, -52.167785],
-    [-32.056421, -52.165961],
-    [-32.056367, -52.164094],
-    [-32.055330, -52.162613],
-    [-32.053857, -52.160596],
-    [-32.052984, -52.158515],
-    [-32.051711, -52.156348],
-    [-32.050238, -52.153236],
-    [-32.048983, -52.150039],
-    [-32.047237, -52.143645],
-    [-32.047046, -52.138860],
-    [-32.046619, -52.137122],
-    [-32.045937, -52.135137],
-    [-32.045118, -52.133796],
-    [-32.044300, -52.132991],
-    [-32.044300, -52.132980],
-    [-32.041535, -52.127251],
-    [-32.038807, -52.121415],
-    [-32.037852, -52.120889],
-    [-32.037161, -52.120256],
-    [-32.036524, -52.119816],
-    [-32.035787, -52.118925],
-    [-32.034787, -52.116866],
-    [-32.033541, -52.115299],
-    [-32.032340, -52.114688],
-    [-32.031285, -52.113808],
-    [-32.030194, -52.112274],
-    [-32.028966, -52.110407],
-    [-32.027911, -52.107671],
-    [-32.027643, -52.105396],
-    [-32.027867, -52.103332],
-    [-32.028686, -52.100355],
-    [-32.029920, -52.096054],
-    [-32.030846, -52.090833],
-    [-32.030983, -52.087861],
-    [-32.030355, -52.084128],
-    [-32.029982, -52.082196],
-    [-32.029600, -52.079310]
-]).addTo(map);
-    areaRibeirinha.setStyle({fillColor: 'red'});
-    areaRibeirinha.bindPopup("<b>Área Ribeirinha</b><br><b>Área de Risco (Aproximada)</b>").openPopup();
+    addMarker(-32.0457632,-52.1143298, "<b>Arrecadação de</b>: <br>Rações</b><br><b>SMCA - Causa Animal</b><br>Av. Buarque de Macedo, 499 - Cidade Nova");
+    addMarker(-32.0532596,-52.1538474, "<b>Arrecadação de</b>: <br>Rações</b><br><b>Agropecuária Terra Vermelha</b><br>R. Cristóvão Pereira, 145 - Vila Sao Miguel");
+    addMarker(-32.082572,-52.158031, "<b>Arrecadação de</b>: <br>Rações</b><br><b>Agropecuária Comercial Ness</b><br>Alameda Uruguay, 72 - Vila Maria Jose");
+    addMarker(-32.1670274,-52.1668979, "<b>Arrecadação de</b>: <br>Rações</b><br><b>Camping Cassino<br>");
+    addMarker(-32.0308156,-52.0973848, "<b>Arrecadação de</b>: <br>Rações</b><br><b>Prefeitura Municipal de Rio Grande</b><br>");
+    addMarker(-32.114074,-52.1752862, "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Partage Shopping Rio Grande<br>");
+    addMarker(-32.0388318, -52.0931829, "<b>Abrigo</b><br><b>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460", goldIcon);
+    addMarker(-32.1772973, -52.1596698, "<b>Abrigo - Em Preparo</b><br><b>Ginásio Wanda Rocha</b>", goldIcon);
+    addMarker(-32.0757463, -52.1799448, "<b>Abrigo - Em Preparo</b><br><b>Escola João de Oliveira Martins</b><br>R. Irmão Isicio, 125 - Castelo Branco", goldIcon);
+    addMarker(-32.0552734, -52.1331448, "<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz", goldIcon);
+    addMarker(-32.0214331,-52.282126, "<b>Abrigo<br>Necessita de</b>:<br>Roupas de cama<br><b>Clube Camponês</b><br>Arraial", goldIcon);
+    addMarker(-32.0517257,-52.148484, "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Praça Rio Grande Shopping Center</b>");
+    addMarker(-32.0327525,-52.093192, "<b>Arrecadação de</b>: <br>Roupas/Agasalhos</b><br><b>NoMallas</b><br>R. Benjamin Constant, 161 - Centro");
+    addMarker(-32.0506426,-52.1182783, "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brenda Lima<br></b>Av. Pres. Vargas, 700 - Vila Juncao");
+    // Ilha dos marinheiros
+    addPolygon([
+      [-31.988988, -52.194543],
+      [-31.994883, -52.195894],
+      [-32.004200, -52.194693],
+      [-32.006966, -52.203447],
+      [-32.011915, -52.207567],
+      [-32.025451, -52.200872],
+      [-32.030108, -52.189028],
+      [-32.028798, -52.171175],
+      [-32.025742, -52.152807],
+      [-32.018465, -52.137014],
+      [-32.012934, -52.121737],
+      [-32.006093, -52.106287],
+      [-32.007403, -52.099077],
+      [-32.004491, -52.094957],
+      [-31.991971, -52.096502],
+      [-31.982216, -52.104399],
+      [-31.974936, -52.113840],
+      [-31.977703, -52.136156],
+      [-31.976246, -52.161734],
+      [-31.978431, -52.189371]
+    ], "<b>Ilha dos Marinheiros</b><br><b>Área de Risco (Aproximada) </b>");
+    // Ilha do Leonidio
+    addPolygon([
+      [-32.070482, -52.233581],
+      [-32.068637, -52.223153],
+      [-32.072407, -52.215573],
+      [-32.071150, -52.212937],
+      [-32.068008, -52.212607],
+      [-32.063191, -52.210877],
+      [-32.059001, -52.203297],
+      [-32.059420, -52.194152],
+      [-32.055161, -52.193246],
+      [-32.037632, -52.200084],
+      [-32.031835, -52.212607],
+      [-32.034210, -52.229332],
+      [-32.044826, -52.245398],
+      [-32.051530, -52.251495]
+    ], "<b>Ilha do Leonidio</b><br><b>Área de Risco (Aproximada)</b>");
+    // Saco da mangueira
+    addPolygon([
+      [-32.110576, -52.158082],
+      [-32.084530, -52.153812],
+      [-32.065584, -52.144057],
+      [-32.057595, -52.135726],
+      [-32.056341, -52.130684],
+      [-32.050117, -52.111832],
+      [-32.044775, -52.101200],
+      [-32.049374, -52.087773],
+      [-32.059685, -52.089198],
+      [-32.065909, -52.099830],
+      [-32.076636, -52.109640],
+      [-32.089034, -52.118134],
+      [-32.096741, -52.128821],
+      [-32.115078, -52.147283],
+      [-32.117579, -52.152879]
+    ], "<b>Saco da Mangueira</b><br><b>Área de Risco (Aproximada)</b>");
+    // Barra
+    addPolygon([
+      [-32.060610, -52.088045],
+      [-32.064820, -52.089415],
+      [-32.067763, -52.091957],
+      [-32.080519, -52.102021],
+      [-32.089948, -52.104862],
+      [-32.097906, -52.107204],
+      [-32.112607, -52.108482],
+      [-32.125792, -52.109258],
+      [-32.141480, -52.107609],
+      [-32.148748, -52.105718],
+      [-32.150746, -52.101163],
+      [-32.144082, -52.101836],
+      [-32.139795, -52.102706],
+      [-32.134771, -52.103537],
+      [-32.130316, -52.102231],
+      [-32.122210, -52.101559],
+      [-32.114304, -52.103181],
+      [-32.104856, -52.102825],
+      [-32.094201, -52.099819],
+      [-32.083947, -52.097327],
+      [-32.074865, -52.090049],
+      [-32.063637, -52.082297]
+    ], "<b>Barra</b><br><b>Área de Risco (Aproximada)</b>");
+    // Henrique pancada e arredores
+    addPolygon([
+      [-32.028038, -52.080840],
+      [-32.029184, -52.084938],
+      [-32.029584, -52.089616],
+      [-32.028947, -52.094401],
+      [-32.028020, -52.099250],
+      [-32.026710, -52.102405],
+      [-32.025582, -52.105430],
+      [-32.024436, -52.108091],
+      [-32.025491, -52.111138],
+      [-32.026964, -52.111395],
+      [-32.028292, -52.111567],
+      [-32.029711, -52.113734],
+      [-32.031512, -52.115966],
+      [-32.032767, -52.116738],
+      [-32.034059, -52.117961],
+      [-32.035187, -52.120193],
+      [-32.036515, -52.121008],
+      [-32.038060, -52.123732],
+      [-32.040443, -52.127766],
+      [-32.042335, -52.132444],
+      [-32.044445, -52.135427],
+      [-32.045772, -52.138688],
+      [-32.046154, -52.143216],
+      [-32.047155, -52.147657],
+      [-32.048373, -52.152035],
+      [-32.051283, -52.157979],
+      [-32.054505, -52.163491],
+      [-32.054604, -52.169737],
+      [-32.056481, -52.174932],
+      [-32.057982, -52.172959],
+      [-32.056912, -52.171518],
+      [-32.056421, -52.169523],
+      [-32.056476, -52.167785],
+      [-32.056421, -52.165961],
+      [-32.056367, -52.164094],
+      [-32.055330, -52.162613],
+      [-32.053857, -52.160596],
+      [-32.052984, -52.158515],
+      [-32.051711, -52.156348],
+      [-32.050238, -52.153236],
+      [-32.048983, -52.150039],
+      [-32.047237, -52.143645],
+      [-32.047046, -52.138860],
+      [-32.046619, -52.137122],
+      [-32.045937, -52.135137],
+      [-32.045118, -52.133796],
+      [-32.044300, -52.132991],
+      [-32.044300, -52.132980],
+      [-32.041535, -52.127251],
+      [-32.038807, -52.121415],
+      [-32.037852, -52.120889],
+      [-32.037161, -52.120256],
+      [-32.036524, -52.119816],
+      [-32.035787, -52.118925],
+      [-32.034787, -52.116866],
+      [-32.033541, -52.115299],
+      [-32.032340, -52.114688],
+      [-32.031285, -52.113808],
+      [-32.030194, -52.112274],
+      [-32.028966, -52.110407],
+      [-32.027911, -52.107671],
+      [-32.027643, -52.105396],
+      [-32.027867, -52.103332],
+      [-32.028686, -52.100355],
+      [-32.029920, -52.096054],
+      [-32.030846, -52.090833],
+      [-32.030983, -52.087861],
+      [-32.030355, -52.084128],
+      [-32.029982, -52.082196],
+      [-32.029600, -52.079310]
+    ], "<b>Área Ribeirinha</b><br><b>Área de Risco (Aproximada)</b>");
 
     
     </script>
