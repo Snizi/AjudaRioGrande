@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda Rio Grande</title>
+
+    <style>
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map">
+
+    
+
+    </div>
+    <script>
+        var map = L.map('map').setView([-32.0453936, -52.1160472], 12.7);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+
+    var goldIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+        });
+ 
+    var lemosJunior = L.marker([-32.0388318, -52.0931829], {icon: goldIcon}).addTo(map);
+    lemosJunior.bindPopup("<b>Abrigo</b><br><b>Ginásio Lemos Júnior </b>").openPopup();
+
+    var wandaRocha = L.marker([-32.1772973, -52.1596698], {icon: goldIcon}).addTo(map);
+    wandaRocha.bindPopup("<b>Abrigo - Em Preparo</b><br><b>Ginásio Wanda Rocha</b>").openPopup();
+
+    var joaoMartins = L.marker([-32.0757463, -52.1799448], {icon: goldIcon}).addTo(map);
+    joaoMartins.bindPopup("<b>Abrigo - Em Preparo</b><br><b>Escola João de Oliveira Martins</b>").openPopup();
+
+    var buchholz = L.marker([-32.0552734, -52.1331448], {icon: goldIcon}).addTo(map);
+    buchholz.bindPopup("<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b>").openPopup();
+
+    var ilhaDosMarinheiros = L.polygon([
+    [-31.982431, -52.212475],
+    [-32.039124, -52.200484],
+    [-32.009715, -52.090832],
+    [-31.967584, -52.094325],
+    ]).addTo(map);
+    ilhaDosMarinheiros.setStyle({fillColor: 'red'});
+    ilhaDosMarinheiros.bindPopup("<b>Ilha dos Marinheiros</b><br><b>Área de Risco</b>").openPopup();
+
+    var leonidiomelo = L.polygon([
+    [-32.040692, -52.244998],
+    [-32.028423, -52.204707],
+    [-32.058651, -52.192052],
+    [-32.077013, -52.227973]
+    ]).addTo(map);
+    leonidiomelo.setStyle({fillColor: 'red'});
+    leonidiomelo.bindPopup("<b>Leonidio Melo</b><br><b>Área de Risco</b>").openPopup();
+    </script>
+</body>
+</html>
