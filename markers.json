@@ -53,21 +53,21 @@
             "nome": "Ginásio Wanda Rocha",
             "lat": -32.1772973,
             "lng": -52.1596698,
-            "desc": "<b>Abrigo - Em Preparo</b><br><b>Ginásio Wanda Rocha</b>",
+            "desc": "<b>Abrigo</b><br><b>Ginásio Wanda Rocha</b><br>R. Fernando Osório Filho, 201",
             "icon": "goldIcon"
         },
         {
             "nome": "Escola João de Oliveira Martins",
             "lat": -32.0757463,
             "lng": -52.1799448,
-            "desc": "<b>Abrigo - Em Preparo</b><br><b>Escola João de Oliveira Martins</b><br>R. Irmão Isicio, 125 - Castelo Branco",
+            "desc": "<b>Abrigo</b><br><b>Escola João de Oliveira Martins</b><br>R. Irmão Isicio, 125 - Castelo Branco",
             "icon": "goldIcon"
         },
         {
             "nome": "E.M.E.F. Frederico Ernesto Buchholz",
             "lat": -32.0552734,
             "lng": -52.1331448,
-            "desc": "<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz",
+            "desc": "<b>Abrigo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz",
             "icon": "goldIcon"
         },
         {
