@@ -11,6 +11,9 @@
     crossorigin=""></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
     <title>Ajuda Rio Grande</title>
 
     <style>
@@ -21,11 +24,25 @@
     </style>
 </head>
 <body>
-
-    <div id="map">
-
     
-
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ajuda Rio Grande</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="telefones.html">Telefones<span class="sr-only"></a>
+            </li>
+            
+        </div>
+    </div>
+  
+    <div id="map">
+    
+        
     </div>
     <script>
         var map = L.map('map').setView([-32.0453936, -52.1160472], 12.7);
@@ -44,7 +61,26 @@
         popupAnchor: [1, -34],
         shadowSize: [41, 41]
         });
+
+
+    var smCausaAnimal = L.marker([-32.0376907,-52.103219]).addTo(map);
+    smCausaAnimal.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>SMCA - Causa Animal</b><br>").openPopup();
  
+    var terraVermelha = L.marker([-32.0532596,-52.1538474]).addTo(map);
+    terraVermelha.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Agropecuária Terra Vermelha</b><br>").openPopup();
+
+    var agroNess = L.marker([-32.082572,-52.158031]).addTo(map);
+    agroNess.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Agropecuária Comercial Ness</b><br>").openPopup();
+
+    var campingCassino = L.marker([-32.1670274,-52.1668979,]).addTo(map);
+    campingCassino.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Camping Cassino<br>").openPopup();
+
+    var prefeitura = L.marker([-32.0308156,-52.0973848]).addTo(map);
+    prefeitura.bindPopup("<b>Arrecadação de</b>: <br>Rações</b><br><br><b>Prefeitura Municipal de Rio Grande</b><br>").openPopup();
+
+    var partageShopping = L.marker([-32.114074,-52.1752862]).addTo(map);
+partageShopping.bindPopup("<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos<br>Colchões<br>Gás de cozinha<br></b><br><br><b>Partage Shopping Rio Grande<br>").openPopup();
+    
     var lemosJunior = L.marker([-32.0388318, -52.0931829], {icon: goldIcon}).addTo(map);
     lemosJunior.bindPopup("<b>Abrigo</b><br><b>Ginásio Lemos Júnior </b>").openPopup();
 
@@ -58,22 +94,48 @@
     buchholz.bindPopup("<b>Abrigo - Em Preparo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b>").openPopup();
 
     var ilhaDosMarinheiros = L.polygon([
-    [-31.982431, -52.212475],
-    [-32.039124, -52.200484],
-    [-32.009715, -52.090832],
-    [-31.967584, -52.094325],
+    [-31.988988, -52.194543],
+    [-31.994883, -52.195894],
+    [-32.004200, -52.194693],
+    [-32.006966, -52.203447],
+    [-32.011915, -52.207567],
+    [-32.025451, -52.200872],
+    [-32.030108, -52.189028],
+    [-32.028798, -52.171175],
+    [-32.025742, -52.152807],
+    [-32.018465, -52.137014],
+    [-32.012934, -52.121737],
+    [-32.006093, -52.106287],
+    [-32.007403, -52.099077],
+    [-32.004491, -52.094957],
+    [-31.991971, -52.096502],
+    [-31.982216, -52.104399],
+    [-31.974936, -52.113840],
+    [-31.977703, -52.136156],
+    [-31.976246, -52.161734],
+    [-31.978431, -52.189371]
     ]).addTo(map);
     ilhaDosMarinheiros.setStyle({fillColor: 'red'});
     ilhaDosMarinheiros.bindPopup("<b>Ilha dos Marinheiros</b><br><b>Área de Risco</b>").openPopup();
 
     var leonidiomelo = L.polygon([
-    [-32.040692, -52.244998],
-    [-32.028423, -52.204707],
-    [-32.058651, -52.192052],
-    [-32.077013, -52.227973]
+    [-32.070482, -52.233581],
+    [-32.068637, -52.223153],
+    [-32.072407, -52.215573],
+    [-32.071150, -52.212937],
+    [-32.068008, -52.212607],
+    [-32.063191, -52.210877],
+    [-32.059001, -52.203297],
+    [-32.059420, -52.194152],
+    [-32.055161, -52.193246],
+    [-32.037632, -52.200084],
+    [-32.031835, -52.212607],
+    [-32.034210, -52.229332],
+    [-32.044826, -52.245398],
+    [-32.051530, -52.251495]
     ]).addTo(map);
     leonidiomelo.setStyle({fillColor: 'red'});
-    leonidiomelo.bindPopup("<b>Leonidio Melo</b><br><b>Área de Risco</b>").openPopup();
+    leonidiomelo.bindPopup("<b>Ilha do Leonidio</b><br><b>Área de Risco</b>").openPopup();
 
     var mangueira = L.polygon([
     [-32.110576, -52.158082],
