@@ -5,14 +5,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    markers = json.load(open('markers.json'))
+    with open('markers.json', encoding='utf-8') as f:
+        markers = json.load(f)
     
     for marker in markers['Marcadores']:
         html_string = ''
         for necessidade in marker['necessidades']:
             html_string += f'{necessidade}<br>'
         marker['necessidades'] = html_string
-    riskareas = json.load(open('riskareas.json'))
+    with open('riskareas.json', encoding='utf-8') as f:
+        riskareas = json.load(f)
     return render_template('index.html', markers=markers, riskareas=riskareas)
 
 @app.route('/telefones')
