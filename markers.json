@@ -46,7 +46,7 @@
             "nome": "Ginásio Lemos Júnior",
             "lat": -32.0388318,
             "lng": -52.0931829,
-            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Geladeira<br>Fogão<br>Lanternas de emergência<br>Materiais de Higiene Pessoal<br>Cobertas<br>Roupas de Cama<br>Talheres Descartáveis<br>Legumes<br>Proteínas<b>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460",
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Geladeira<br>Fogão<br>Lanternas de emergência<br>Materiais de Higiene Pessoal<br>Cobertas<br>Roupas de Cama<br>Talheres Descartáveis<br>Legumes<br>Proteínas<b><br>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460",
             "icon": "goldIcon"
         },
         {
