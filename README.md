@@ -1,5 +1,4 @@
-# Título do projeto
-
+# Ajuda Rio Grande
 Ajuda Rio Grande é um projeto que visa contribuir com a comunidade da cidade do Rio Grande através do sistema hospedado em: https://www.ajudariogrande.com.br. Mapeando possíveis zonas de risco divulgaldas pela prefeitura e instituíções confiáveis bem como agrupar pontos de coleta e abrigos durante o desastre natural que está acontecendo.
 
 ## 🖇️ Colaborando
