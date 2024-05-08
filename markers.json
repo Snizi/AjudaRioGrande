@@ -157,7 +157,8 @@
             "nome": "Cruz Vermelha",
             "lat":-32.033959,
             "lng":-52.094959,
-            "desc":"<b>Ponto de voluntarização</b><br><b>Cruz Vermelha<br></b>R. Zalony, 243 - Centro" 
+            "desc":"<b>Ponto de voluntarização</b><br><b>Cruz Vermelha<br></b>R. Zalony, 243 - Centro",
+            "icon": "redIcon" 
 
         },
         {
