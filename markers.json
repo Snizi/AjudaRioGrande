@@ -159,6 +159,12 @@
             "lng":-52.094959,
             "desc":"<b>Ponto de voluntarização</b><br><b>Cruz Vermelha<br></b>R. Zalony, 243 - Centro" 
 
+        },
+        {
+            "nome": "Mitra Diocesana",
+            "lat": -32.038267,
+            "lng": -52.101185,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Mitra Diocesana<br></b>R. João Alfredo, 532 - Centro"
         }
     ]
 }
