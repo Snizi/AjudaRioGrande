@@ -162,36 +162,6 @@
             "lat": -32.038267,
             "lng": -52.101185,
             "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Mitra Diocesana<br></b>R. João Alfredo, 532 - Centro"
-        },
-        {
-            "nome": "PUC Minas - Coração Eucarístico",
-            "lat": -19.924089294997042,
-            "lng": -43.99196305337966,
-            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Coração Eucarístico - Centro de Espiritualidade Jesus Pão da Vida </b><br>R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG"
-          },
-          {
-            "nome": "PUC Minas - São Gabriel",
-            "lat": -19.859340029617638,
-            "lng": -43.91895030233639,
-            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC São Gabriel - Centro de Espiritualidade Jesus Mestre</b><br>Rua Walter Ianni, 255 - São Gabriel, Belo Horizonte - MG"
-          },
-          {
-            "nome": "PUC Minas - Barreiro",
-            "lat": -19.976239720734977,
-            "lng": -44.02516870543715,
-            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Barreiro - Centro de Espiritualidade Jesus Redentor</b><br>Av. Afonso Vaz de Melo, 1200 - Barreiro, Belo Horizonte - MG"
-          },
-          {
-            "nome": "Aeroporto Carlos Drummond de Andrade",
-            "lat": -19.851883969737784,
-            "lng": -43.95477197491936,
-            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>OBS.: </b><i>Por restrições do transporte áereo, não está sendo aceito: produtos de limpeza que contenham alvejantes, produtos que sejam corrosivos, produtos inflamáveis e óleo de cozinha.<br><br></i><b>Aeroporto da Pampulha</b><br>Praça Bagatelle, 204 - São Luiz - São Luiz, Belo Horizonte - MG - <i>8h às 18h</i>"
-          },
-          {
-            "nome": "PUC Minas - Betim",
-            "lat": -19.955456558349336,
-            "lng": -44.1996367473025,
-            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Betim - Centro de Espiritualidade Jesus Misericordioso</b><br> R. do Rosário, 1081 - Angola, Betim - MG"
-          }
+        }
     ]
 }
