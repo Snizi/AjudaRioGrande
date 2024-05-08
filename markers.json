@@ -103,46 +103,75 @@
         },
         {
             "nome": "FNP Cassino",
-            "lat": -32.178735, 
+            "lat": -32.178735,
             "lng": -52.163949,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Frango no Pote Cassino<br></b>Av. Osvaldo Cruz, 358 - Cassino"
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Frango no Pote Cassino<br></b>Av. Osvaldo Cruz, 358 - Cassino"
         },
         {
             "nome": "Galeto Caxias",
-            "lat": -32.174731, 
+            "lat": -32.174731,
             "lng": -52.167700,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Galeto Caxias<br></b>R. Jovem Airton Pôrto Alegre, 351"
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Galeto Caxias<br></b>R. Jovem Airton Pôrto Alegre, 351"
         },
         {
             "nome": "Deborest Bar",
             "lat": -32.181566,
             "lng": -52.156970,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>De Borest Beach Bar<br></b>Av. Atlântica, 244 - Cassino"
-
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>De Borest Beach Bar<br></b>Av. Atlântica, 244 - Cassino"
         },
         {
             "nome": "OpenBS",
-            "lat": -32.173833, 
+            "lat": -32.173833,
             "lng": -52.172147,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Open Beach Sports<br></b>Av. Rio Grande, 679"
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Open Beach Sports<br></b>Av. Rio Grande, 679"
         },
         {
             "nome": "SM Cassino",
             "lat": -32.185648,
             "lng": -52.158539,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Secretaria Municipal Cassino<br></b>R. Prof. Fernando Eduardo Freire, 412"
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Secretaria Municipal Cassino<br></b>R. Prof. Fernando Eduardo Freire, 412"
         },
         {
             "nome": "WebMultiMarcas",
-            "lat":-32.048124, 
-            "lng":-52.114267,
-            "desc":"<b>Arrecadação de</b>: <br>Roupas de cama e banho<br>Itens de higiene<br><b>Web Multimarcas<br></b>R. Domingos de Almeida, 733 - Parque Res. Coelho"
+            "lat": -32.048124,
+            "lng": -52.114267,
+            "desc": "<b>Arrecadação de</b>: <br>Roupas de cama e banho<br>Itens de higiene<br><b>Web Multimarcas<br></b>R. Domingos de Almeida, 733 - Parque Res. Coelho"
         },
         {
             "nome": "BrownBrownie",
-            "lat":-32.041964, 
-            "lng":-52.110166,
-            "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brown Brownie<br></b>R. Gen. Abreu, 268 - Miguel de Castro Moreira"
+            "lat": -32.041964,
+            "lng": -52.110166,
+            "desc": "<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brown Brownie<br></b>R. Gen. Abreu, 268 - Miguel de Castro Moreira"
+        },
+        {
+            "nome": "PUC Minas - Coração Eucarístico",
+            "lat": -19.924089294997042,
+            "lng": -43.99196305337966,
+            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Coração Eucarístico - Centro de Espiritualidade Jesus Pão da Vida </b><br>R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG"
+        },
+        {
+            "nome": "PUC Minas - São Gabriel",
+            "lat": -19.859340029617638,
+            "lng": -43.91895030233639,
+            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC São Gabriel - Centro de Espiritualidade Jesus Mestre</b><br>Rua Walter Ianni, 255 - São Gabriel, Belo Horizonte - MG"
+        },
+        {
+            "nome": "PUC Minas - Barreiro",
+            "lat": -19.976239720734977,
+            "lng": -44.02516870543715,
+            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Barreiro - Centro de Espiritualidade Jesus Redentor</b><br>Av. Afonso Vaz de Melo, 1200 - Barreiro, Belo Horizonte - MG"
+        },
+        {
+            "nome": "Aeroporto Carlos Drummond de Andrade",
+            "lat": -19.851883969737784,
+            "lng": -43.95477197491936,
+            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>OBS.: </b><i>Por restrições do transporte áereo, não está sendo aceito: produtos de limpeza que contenham alvejantes, produtos que sejam corrosivos, produtos inflamáveis e óleo de cozinha.<br><br></i><b>Aeroporto da Pampulha</b><br>Praça Bagatelle, 204 - São Luiz - São Luiz, Belo Horizonte - MG - <i>8h às 18h</i>"
+        },
+        {
+            "nome": "PUC Minas - Betim",
+            "lat": -19.955456558349336,
+            "lng": -44.1996367473025,
+            "desc": "<b>Arrecadação de</b>: <br>Alimentos não perecíveis<br>Itens de higiene pessoal<br>Materiais de limpeza<br>Roupas e calçados<br>Cobertores<br>Água mineral<br><br><b>PUC Betim - Centro de Espiritualidade Jesus Misericordioso</b><br>R. do Rosário, 1081 - Angola, Betim - MG"
         }
     ]
 }
