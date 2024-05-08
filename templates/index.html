@@ -52,7 +52,8 @@
   }
   
   {% for marker in markers["Marcadores"] %}
-      addMarker({{ marker.lat }}, {{ marker.lng }}, "{{ marker.desc | safe }}", {{ marker.icon }});
+  
+    addMarker({{ marker.lat }}, {{ marker.lng }}, "<b>{{ marker.tipo }}</b><br> {{ marker.necessidades | safe }}<b>{{ marker.nome }}</b><br> {{ marker.endereco }}", {{ marker.icon }});
   {% endfor %}
 
 
