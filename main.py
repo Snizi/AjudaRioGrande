@@ -13,5 +13,9 @@ def index():
 def telefones():
     return render_template('telefones.html')
     
+@app.route('/grupos')
+def grupos():
+    return render_template('grupos.html')
+
 if __name__ == '__main__':
     app.run()
