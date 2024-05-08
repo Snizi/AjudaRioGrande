@@ -46,35 +46,44 @@
             "nome": "Ginásio Lemos Júnior",
             "lat": -32.0388318,
             "lng": -52.0931829,
-            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Misturas pra pão<br>Temperos<br>Cebola<br>Alho<br>Louro<br>Proteína<br>Legumes<br><b>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460",
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Geladeira<br>Fogão<br>Lanternas de emergência<br>Materiais de Higiene Pessoal<br>Cobertas<br>Roupas de Cama<br>Talheres Descartáveis<br>Legumes<br>Proteínas<b>Ginásio Lemos Júnior</b><br>R. Andrades Neves 460",
             "icon": "goldIcon"
         },
         {
             "nome": "Ginásio Wanda Rocha",
             "lat": -32.1772973,
             "lng": -52.1596698,
-            "desc": "<b>Abrigo</b><br><b>Ginásio Wanda Rocha</b><br>R. Fernando Osório Filho, 201",
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Bolacha<br>Pão<br>Margarina<br>Leite<br>Produtos de Higiene Pessoal<br><b>Ginásio Wanda Rocha</b><br>R. Fernando Osório Filho, 201",
             "icon": "goldIcon"
         },
         {
             "nome": "Escola João de Oliveira Martins",
             "lat": -32.0757463,
             "lng": -52.1799448,
-            "desc": "<b>Abrigo</b><br><b>Escola João de Oliveira Martins</b><br>R. Irmão Isicio, 125 - Castelo Branco",
+            "desc": "<b>Abrigo</b><br><b>Escola João de Oliveira Martins - Em Preparo</b><br>R. Irmão Isicio, 125 - Castelo Branco",
             "icon": "goldIcon"
         },
         {
             "nome": "E.M.E.F. Frederico Ernesto Buchholz",
             "lat": -32.0552734,
             "lng": -52.1331448,
-            "desc": "<b>Abrigo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz",
+            "desc": "<b>Abrigo</b><br><b>E.M.E.F. Frederico Ernesto Buchholz - Em Preparo</b><br>R. Estados Unidos da América do Norte, S/N - Frederico Ernesto Buchholz",
             "icon": "goldIcon"
+        },
+        {
+            "nome": "Abrigo Famílias Atípicas",
+            "lat":-32.047166,
+            "lng":-52.115612,
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Colchões<br>Pallets<br>Cobertas<br>Roupas de cama<br>Travesseiros<br>Gás de cozinha<br>Abafadores<br>Fraldas<br>Materiais de Higiene Pessoal<br><b>Famílias Atípicas (Fábrica de Cordas) - Em Preparo</b><br>R. Domingos de Almeida, 660 - Cidade Nova",
+            "icon": "goldIcon"
+
+            
         },
         {
             "nome": "Clube Camponês",
             "lat": -32.0214331,
             "lng": -52.282126,
-            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Roupas de cama<br>Toalha<br>Coberta<br>Leite<br>Água<br><b>Esporte Clube Camponês</b><br>Arraial",
+            "desc": "<b>Abrigo<br>Necessita de</b>:<br>Alimentos não perecíveis<br>Travesseiros<br><b>Esporte Clube Camponês</b><br>Arraial",
             "icon": "goldIcon"
         },
         {
@@ -143,6 +152,13 @@
             "lat":-32.041964, 
             "lng":-52.110166,
             "desc":"<b>Arrecadação de</b>: <br>Água mineral<br>Alimentos não perecíveis<br>Roupas de cama e banho<br>Itens de higiene<br>Roupas/agasalhos</b><br><b>Brown Brownie<br></b>R. Gen. Abreu, 268 - Miguel de Castro Moreira"
+        },
+        {
+            "nome": "Cruz Vermelha",
+            "lat":-32.033959,
+            "lng":-52.094959,
+            "desc":"<b>Ponto de voluntarização</b><br><b>Cruz Vermelha<br></b>R. Zalony, 243 - Centro" 
+
         }
     ]
 }
