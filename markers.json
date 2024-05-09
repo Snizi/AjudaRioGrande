@@ -239,8 +239,15 @@
             "necessidades": ["Doação de Alimentos"],
             "endereco": " R. Dr. Nascimento, 14 - Centro",
             "horario": "Até as 22h"
-
-            
+        },
+        {
+            "nome": "EMEI Vila da Quinta",
+            "lat":-32.072051,
+            "lng":-52.257759,
+            "tipo": "Abrigo",
+            "necessidades": [""],
+            "endereco": "R. João Moreira, 204 - Quinta",
+            "icon": "goldIcon"
         }
     ]
 }
