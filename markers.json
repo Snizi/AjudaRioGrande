@@ -108,7 +108,7 @@
             "nome": "Clube Camponês",
             "lat": -32.0214331,
             "lng": -52.282126,
-            "tipo": "Abrigo<br>Necessita de",
+            "tipo": "Abrigo",
             "necessidades": ["Gás", "Leiteira"],
             "endereco": "Arraial",
             "icon": "goldIcon"
