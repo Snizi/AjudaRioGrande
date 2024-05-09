@@ -209,7 +209,7 @@
             "lat":-32.033959,
             "lng":-52.094959,
             "tipo":"Ponto de voluntarização",
-            "necessidades": ["Voluntários"],
+            "necessidades": [""],
             "endereco":"R. Zalony, 243 - Centro",
             "icon": "redIcon" 
 
