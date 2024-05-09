@@ -9,7 +9,7 @@ No momento, o que mais necessitamos é que as áreas de risco sejam atualizadas 
 
 Para editar as áreas de risco, basta pegar o conteúdo do arquivo *riskareas.json* e inserir no site https://geojson.io/. Após isso, editar os polígonos para que se adaptem a situação atual da região, e inserir novamente no arquivo.
 
-Para adicionar novos marcadores de coleta, verificar o arquivo *markers.json* que contém os pontos bem como suas coordenadas geográficas para plotagem no mapa.
+Para adicionar novos marcadores de coleta, verificar o arquivo *markers.json* que contém os pontos bem como suas coordenadas geográficas para plotagem no mapa. Verifique o "tipo", este determinará o marcador. Tipos: Arrecadação, Abrigo e Ponto de voluntarização
 
 Não esqueça de abrir uma pull request!
 
