@@ -99,7 +99,8 @@
             "tipo": "Abrigo",
             "necessidades": ["Abafadores", "Fraldas", "Gás de Cozinha", "Alimentos não perecíveis", "Água mineral", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos", "Colchões", "Produtos de Higiene Pessoal", "Produtos de Limpeza", "Rações", "Cobertores", "Travesseiros", "Roupas Íntimas Novas", "Bolacha", "Pão", "Margarina", "Leite", "Produtos de Higiene Pessoal"],
             "endereco": " R. Domingos de Almeida, 660 - Cidade Nova",
-            "icon": "goldIcon"
+            "icon": "goldIcon",
+            "horario": "8h às 22h"
 
             
         },
@@ -158,7 +159,8 @@
             "lng": -52.167700,
             "tipo":"Arrecadação",
             "necessidades": ["Água mineral", "Alimentos não perecíveis", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos"],
-            "endereco": "R. Jovem Airton Pôrto Alegre, 351"
+            "endereco": "R. Jovem Airton Pôrto Alegre, 351",
+            "horario": "8h às 15h - 18h às 22h"
 
         },
         {
@@ -224,10 +226,21 @@
             "nome": "Mude Academia",
             "lat":-32.184541,
             "lng":-52.158654,
-            "tipo":  "Arrecadação",
+            "tipo": "Arrecadação",
             "necessidades": ["Roupas", "Produtos de Higiene", "Produtos de Higiene Pessoal", "Colchões e roupas de cama", "Doações em geral"],
             "endereco": "Av. Rio Grande, 98 - Cassino"
         
+        },
+        {
+            "nome": "Ipiranga Atlético Clube (IAC)",
+            "lat":-32.039188,
+            "lng":-52.0915191,
+            "tipo": "Arrecadação",
+            "necessidades": ["Doação de Alimentos"],
+            "endereco": " R. Dr. Nascimento, 14 - Centro",
+            "horario": "Até as 22h"
+
+            
         }
     ]
 }
