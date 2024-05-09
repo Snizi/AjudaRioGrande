@@ -53,7 +53,7 @@
             "lat": -32.114074,
             "lng": -52.1752862,
             "tipo": "Arrecadação",
-            "necessidades": ["Água mineral", "Alimentos não perecíveis", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos", "Colchões", "Gás de cozinha"],
+            "necessidades": ["Água mineral", "Alimentos não perecíveis", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos", "Colchões", "Gás de cozinha", "Roupas Íntimas", "Bicos", "Mamadeiras", "Pomadas para assadura"],
             "endereco": ""
         },
         {
