@@ -245,7 +245,7 @@
             "lat":-32.072051,
             "lng":-52.257759,
             "tipo": "Abrigo",
-            "necessidades": [""],
+            "necessidades": ["Gás de Cozinha", "Pano de prato", "Brinquedos", "Descartáveis (Pratos e Talheres)"],
             "endereco": "R. João Moreira, 204 - Quinta",
             "icon": "goldIcon"
         },
