@@ -75,7 +75,7 @@
             "icon": "goldIcon"
         },
         {
-            "nome": "Escola João de Oliveira Martins - Em Preparo",
+            "nome": "Escola João de Oliveira Martins",
             "lat": -32.0757463,
             "lng": -52.1799448,
             "tipo": "Abrigo",
@@ -267,6 +267,17 @@
             "endereco": "R. Hónorato Carvalho, 1445",
             "icon": "goldIcon",
             "horario": "24 horas"
+        },
+        {
+            "nome": "FURG - CIDEC - Em preparo",
+            "lat": -32.073620, 
+            "lng": -52.161214,
+            "tipo": "Arrecadação",
+            "necessidades": ["Colchões de casal e solteiro", "Lençóis", "Travesseiros", "Cobertores", "Toalhas de banho", "Pratos (Plástico reforçado)", "Copos Plásticos", "Talheres"],
+            "endereco": "Km 8 Avenida Itália Carreiros, Rio Grande",
+            "horario": "8h as 12h e 13:30 às 17:30"
+
+
         }
     ]
 }
