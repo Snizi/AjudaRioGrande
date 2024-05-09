@@ -263,7 +263,7 @@
             "lat": -32.048891, 
             "lng": -52.140294,
             "tipo": "Abrigo para animais",
-            "necessidades": ["Rações", "Medicamentos"],
+            "necessidades": ["Caixas de Papelão", "Toalhas", "Cobertas ou tecidos quentes", "Rações", "Rações Filhotes", "Sachês", "Medicamentos", "Caminhas para cachorros", "Potes e pratinhos"],
             "endereco": "R. Hónorato Carvalho, 1445",
             "icon": "goldIcon",
             "horario": "24 horas"
