@@ -61,7 +61,7 @@
             "lat": -32.0388318,
             "lng": -52.0931829,
             "tipo": "Abrigo",
-            "necessidades": ["Roupas Íntimas Novas"],
+            "necessidades": ["Produtos de Higiene Pessoal"],
             "endereco": "R. Andrades Neves 460",
             "icon": "goldIcon"
         },
@@ -70,7 +70,7 @@
             "lat": -32.1772973,
             "lng": -52.1596698,
             "tipo": "Abrigo",
-            "necessidades": ["Bolacha", "Pão", "Margarina", "Leite", "Produtos de Higiene Pessoal"],
+            "necessidades": ["Colchões", "Alimentos secos"],
             "endereco": "R. Fernando Osório Filho, 201",
             "icon": "goldIcon"
         },
@@ -109,7 +109,7 @@
             "lat": -32.0214331,
             "lng": -52.282126,
             "tipo": "Abrigo<br>Necessita de",
-            "necessidades": ["Água mineral", "Alimentos não perecíveis", "Itens de higiene", "Roupas/agasalhos", "Materiais de Higiene Pessoal"],
+            "necessidades": ["Gás", "Leiteira"],
             "endereco": "Arraial",
             "icon": "goldIcon"
         },
@@ -219,11 +219,11 @@
             "lat": -32.038267,
             "lng": -52.101185,
             "tipo": "Arrecadação",
-            "necessidades": ["Água mineral", "Alimentos não perecíveis", "Roupas de cama e banho", "Itens de higiene Roupas/agasalhos"],
+            "necessidades": ["Shampoo", "Toalhas de banho"],
             "endereco": "R. João Alfredo, 532 - Centro"
         },
         {
-            "nome": "Mude Academia",
+            "nome": "Mude Academia (SAC)",
             "lat":-32.184541,
             "lng":-52.158654,
             "tipo": "Arrecadação",
@@ -236,7 +236,7 @@
             "lat":-32.039188,
             "lng":-52.0915191,
             "tipo": "Arrecadação",
-            "necessidades": ["Doação de Alimentos"],
+            "necessidades": ["Voluntários", "Itens de higiene", "Alimentos não perecíveis"],
             "endereco": " R. Dr. Nascimento, 14 - Centro",
             "horario": "Até as 22h"
         },
