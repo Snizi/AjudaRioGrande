@@ -248,6 +248,24 @@
             "necessidades": [""],
             "endereco": "R. João Moreira, 204 - Quinta",
             "icon": "goldIcon"
+        },
+        {
+            "nome": "CTG Mate Amargo",
+            "lat": -32.072587, 
+            "lng": -52.152602,
+            "tipo":"Abrigo para animais",
+            "necessidades": ["Rações", "Voluntários", "Produtos de Limpeza", "Sacos de Lixo 50 e 100l", "Colchões e roupas de cama", "Roupas Íntimas Novas", "Alimentos em Geral"],
+            "endereco": "Av. Itália, 1532",
+            "icon": "goldIcon"
+        },
+        {
+            "nome": "Sindicato Rural",
+            "lat": -32.048891, 
+            "lng": -52.140294,
+            "tipo": "Abrigo para animais",
+            "necessidades": ["Rações", "Voluntários", "Produtos de Limpeza", "Sacos de Lixo 50 e 100l", "Colchões e roupas de cama", "Roupas Íntimas Novas", "Alimentos em Geral"],
+            "endereco": "R. Hónorato Carvalho, 1445",
+            "icon": "goldIcon"
         }
     ]
 }
