@@ -296,6 +296,14 @@
             "necessidades": ["meias adultas e infantis"],
             "endereco": "R. Pedro Carneiro Pereira, 12",
             "icon": "goldIcon"
+        },
+        {
+            "nome": "Comilança do Bem",
+            "lat":-32.037810, 
+            "lng":-52.112224,
+            "tipo": "Arrecadação",
+            "necessidades": ["arroz","massa","óleo","feijão","molho","pão","margarina","linguiça calabresa","papel aluminio","marmita descartável"],
+            "endereco": "Av Pelotas, 254"
         }
     ]
 }
