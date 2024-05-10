@@ -57,12 +57,12 @@
             "endereco": ""
         },
         {
-            "nome": "Ginásio Lemos Júnior",
-            "lat": -32.0388318,
-            "lng": -52.0931829,
+            "nome": "BIG/CARREFOUR",
+            "lat": -32.039680, 
+            "lng": -52.101341,
             "tipo": "Abrigo",
-            "necessidades": ["Produtos de Higiene Pessoal"],
-            "endereco": "R. Andrades Neves 460",
+            "necessidades": ["Água mineral", "Alimentos não perecíveis", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos", "Colchões", "Gás de cozinha", "Roupas Íntimas", "Bicos", "Mamadeiras", "Pomadas para assadura"],
+            "endereco": "R. Sen. Corrêa - Centro",
             "icon": "goldIcon"
         },
         {
