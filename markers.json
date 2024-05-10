@@ -228,6 +228,14 @@
             "necessidades": ["Roupas", "Produtos de Higiene", "Produtos de Higiene Pessoal", "Colchões e roupas de cama", "Doações em geral"],
             "endereco": "Av. Rio Grande, 98 - Cassino"
         
+        },
+        {
+            "nome": "Barra Solo",
+            "lat":-32.0458911, 
+            "lng":-52.1038793,
+            "tipo": "Arrecadação",
+            "necessidades": ["leite","bolachas","arroz","feijão","macarrão","enlatados","água mineral","produtos de higiene pessoal","roupas","cobertores", "itens de limpeza"],
+            "endereco": "Av Rheingantz, 140 - Parque Residencial Coelho"
         }
     ]
 }
