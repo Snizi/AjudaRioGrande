@@ -61,7 +61,7 @@
             "lat": -32.039680, 
             "lng": -52.101341,
             "tipo": "Abrigo",
-            "necessidades": ["Cadeira de Rodas","Colchões", "Roupas Masculinas e Femininas", "Roupas Íntimas Novas"],
+            "necessidades": ["Estrados ou pallets","Cadeira de Rodas","Colchões", "Roupas Masculinas e Femininas", "Roupas Íntimas Novas"],
             "endereco": "R. Sen. Corrêa - Centro",
             "icon": "goldIcon"
         },
@@ -70,7 +70,7 @@
             "lat": -32.1772973,
             "lng": -52.1596698,
             "tipo": "Abrigo",
-            "necessidades": ["Livros", "Brinquedos Infantis"],
+            "necessidades": ["Biombo", "Capa de colchão de solteiro"],
             "endereco": "R. Fernando Osório Filho, 201",
             "icon": "goldIcon"
         },
@@ -79,7 +79,7 @@
             "lat": -32.0757463,
             "lng": -52.1799448,
             "tipo": "Abrigo",
-            "necessidades": [""],
+            "necessidades": ["15 travesseiro"],
             "endereco": "R. Irmão Isicio, 125 - Castelo Branco",
             "icon": "goldIcon"
         },
@@ -97,7 +97,7 @@
             "lat":-32.047166,
             "lng":-52.115612,
             "tipo": "Abrigo",
-            "necessidades": ["Abafadores", "Fraldas", "Gás de Cozinha", "Alimentos não perecíveis", "Água mineral", "Roupas de cama e banho", "Itens de higiene", "Roupas/agasalhos", "Colchões", "Produtos de Higiene Pessoal", "Produtos de Limpeza", "Rações", "Cobertores", "Travesseiros", "Roupas Íntimas Novas", "Bolacha", "Pão", "Margarina", "Leite", "Produtos de Higiene Pessoal"],
+            "necessidades": ["Voluntários", "roupas íntimas femininas e masculinas", "produtos de higiene e alimentos" ],
             "endereco": " R. Domingos de Almeida, 660 - Cidade Nova",
             "icon": "goldIcon",
             "horario": "8h às 22h"
@@ -245,7 +245,7 @@
             "lat":-32.072051,
             "lng":-52.257759,
             "tipo": "Abrigo",
-            "necessidades": ["Gás de Cozinha", "Pano de prato", "Brinquedos", "Descartáveis (Pratos e Talheres)"],
+            "necessidades": ["Medicamentos (entrar em contato pelo WhatsApp)", "roupas íntimas (masculina M e G, infantil e feminina G)", "panelas", "conchas", "colheres grandes", "facas grandes", "tábua de carne", "bacias", "liquidificador", "canecas", "embalagem de marmita", "geladeira", "suco em pó", "pallet", "saco de lixo", "fralda GG infantil e XXG", "descartáveis (prato, talheres)", "brinquedos" ],
             "endereco": "R. João Moreira, 204 - Quinta",
             "icon": "goldIcon"
         },
@@ -293,7 +293,7 @@
             "lat":-32.066199, 
             "lng":-52.150938,
             "tipo": "Abrigo",
-            "necessidades": ["meias adultas e infantis"],
+            "necessidades": ["meias adultas e infantis", "mamadeira"],
             "endereco": "R. Pedro Carneiro Pereira, 12",
             "icon": "goldIcon"
         },
